@@ -1,20 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-.header-container{
+
+.header-container {
     justify-content: space-between;
     display: flex;
+    align-items: center;
 }
-.header-list{
+
+.header-list {
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+
+.header-title {
+    color: #2D2641;
+}
+
+.header-link {
+    color: #837D88;
+}
+.header-btn{
+    padding: 9px 25px;
+    border: 2px #2D2641 solid;
+    background: none;
 }
