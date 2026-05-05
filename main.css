@@ -20,7 +20,7 @@
 
 .header-list {
     display: flex;
-    gap: 20px;
+    gap: 35px;
     align-items: center;
 }
 
@@ -31,8 +31,76 @@
 .header-link {
     color: #837D88;
 }
-.header-btn{
+
+.header-btn {
     padding: 9px 25px;
     border: 2px #2D2641 solid;
     background: none;
+}
+
+.box-model {
+    background-color: #2D2641;
+    position: relative;
+    height: 650px;
+}
+
+.hero-item {
+    width: 500px;
+}
+
+.hero-img {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    left: calc(50% - 500px);
+}
+
+.hero-title {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 42px;
+    letter-spacing: -1px;
+    top: 280px;
+    left: 50%;
+    left: calc(50% - 500px);
+}
+
+.hero-text {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: white;
+    width: 500px;
+    top: 370px;
+    left: 50%;
+    left: calc(50% - 500px);
+}
+
+.hero-img2 {
+    position: absolute;
+    width: 400px;
+    height: 510px;
+    top: 200px;
+    left: 50%;
+    left: calc(50% + 80px);
+}
+.hero-btn{
+    position: absolute;
+    padding: 9px 25px;
+    border: 2px white solid;
+    background: none;
+    color: white;
+    top: 470px;
+    left: 50%;
+    left: calc(50% - 500px);
+}
+.hero-img3{
+    position: absolute;
+    top: 480px;
+    width: 150px;
+    height: 500px;
 }
