@@ -88,7 +88,8 @@
     left: 50%;
     left: calc(50% + 80px);
 }
-.hero-btn{
+
+.hero-btn {
     position: absolute;
     padding: 9px 25px;
     border: 2px white solid;
@@ -98,9 +99,48 @@
     left: 50%;
     left: calc(50% - 500px);
 }
-.hero-img3{
+
+.hero-img3 {
     position: absolute;
     top: 480px;
     width: 150px;
     height: 500px;
+}
+
+.wrap {
+    margin-top: 200px;
+    position: relative;
+}
+
+.card-title {
+    position: absolute;
+    left: 50%;
+    left: calc(50% - 500px);
+}
+
+.card-list {
+    position: absolute;
+    display: flex;
+    top: 100px;
+}
+
+.card-item {
+    width: 350px;
+    margin: 30px;
+}
+
+.card-img2 {
+    position: absolute;
+    top: 70px;
+}
+
+.card-title2 {
+    position: absolute;
+    top: 130px;
+}
+.card-text{
+    position: absolute;
+    top: 190px;
+    width: 350px;
+    color: #837D88;
 }
