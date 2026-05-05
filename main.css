@@ -42,6 +42,9 @@
     background-color: #2D2641;
     position: relative;
     height: 650px;
+    width: 1500px;
+    left: 50%;
+    left: calc(50% - 750px);
 }
 
 .hero-item {
@@ -86,7 +89,7 @@
     height: 510px;
     top: 200px;
     left: 50%;
-    left: calc(50% + 80px);
+    left: calc(50% + 50px);
 }
 
 .hero-btn {
@@ -138,9 +141,39 @@
     position: absolute;
     top: 130px;
 }
-.card-text{
+
+.card-text {
     position: absolute;
     top: 190px;
     width: 350px;
     color: #837D88;
+}
+
+.box {
+    background-color: #2D2641;
+    position: relative;
+    top: 500px;
+}
+
+.banner-title {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.78px;
+    top: 70px;
+    width: 420px;
+    left: 50%;
+    left: calc(50% - 400px);
+}
+.banner-btn{
+    position: absolute;
+    padding: 9px 25px;
+    border: 2px white solid;
+    background: none;
+    color: white;
+    top: 100px;
+    left: 50%;
+    left: calc(50% + 250px);
 }
