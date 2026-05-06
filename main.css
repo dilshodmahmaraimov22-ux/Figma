@@ -167,7 +167,8 @@
     left: 50%;
     left: calc(50% - 400px);
 }
-.banner-btn{
+
+.banner-btn {
     position: absolute;
     padding: 9px 25px;
     border: 2px white solid;
@@ -178,7 +179,40 @@
     left: calc(50% + 250px);
 }
 
-.end{
+.end {
     position: relative;
     margin-top: 600px;
+}
+
+.last-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-title {
+    color: #2C2830;
+}
+
+.last-item1 {
+    display: flex;
+    gap: 20px;
+}
+
+.banner-link {
+    color: #837D88;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last-list2 {
+    display: flex;
+    gap: 160px;
+}
+
+.last-item2 {
+    width: 150px;
 }
